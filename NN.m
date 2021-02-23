@@ -18,7 +18,7 @@ function NN(X1,X2)
             end
         end
         for k = 1:length(X2)
-            b = sqrt((X1(k,1) - XGrid(i,1))^2 + (X1(k,2) - XGrid(i,2))^2);
+            b = sqrt((X2(k,1) - XGrid(i,1))^2 + (X2(k,2) - XGrid(i,2))^2);
             if (b < min2)
                 min2 = b;
             end
